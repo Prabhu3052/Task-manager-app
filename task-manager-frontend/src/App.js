@@ -4,7 +4,7 @@ import TaskForm from './components/Taskform';
 import TaskList from './components/Tasklist';
 import './App.css';
 
-// Base API URL (pointing to your Render backend)
+
 const API_BASE_URL = 'https://task-manager-app-m0al.onrender.com';
 
 function App() {
@@ -77,12 +77,12 @@ function App() {
     }
   };
 
-  // Filter tasks by priority
+
   const filteredTasks = priorityFilter === 'all' 
     ? tasks 
     : tasks.filter(task => task.priority === priorityFilter);
 
-  // Sort tasks
+
   const sortedTasks = [...filteredTasks].sort((a, b) => {
     if (sortBy === 'priority') {
       const priorityOrder = { high: 3, medium: 2, low: 1 };

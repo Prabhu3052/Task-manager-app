@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +16,7 @@ body {
   padding: 2rem;
 }
 
-/* App Container with glassmorphism */
+
 .app {
   width: 100%;
   max-width: 850px;
@@ -38,7 +38,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* Task Form */
+
 .task-form {
   display: flex;
   gap: 1rem;
@@ -91,7 +91,7 @@ body {
   background: linear-gradient(to right, #ffb199, #ff0844);
 }
 
-/* Controls Section */
+
 .controls {
   display: flex;
   justify-content: space-between;
@@ -120,7 +120,7 @@ body {
   color: #333;
 }
 
-/* Task List */
+
 .task-list {
   border-top: 2px solid rgba(255, 255, 255, 0.3);
   padding-top: 1.5rem;
@@ -172,7 +172,7 @@ body {
   color: #333;
 }
 
-/* Priority Badge */
+
 .priority-badge {
   padding: 0.35rem 1rem;
   border-radius: 50px;
@@ -183,7 +183,7 @@ body {
   background-color: #ff9800;
 }
 
-/* Task Actions */
+
 .task-actions {
   display: flex;
   gap: 0.5rem;
@@ -217,7 +217,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   .app {
     padding: 1rem;
